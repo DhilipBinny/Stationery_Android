@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/title_stationery_request"
+        android:icon="@drawable/clipboard"
+        android:title="@string/title_stationery_request"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/navigation_editdepartment"
+        android:icon="@drawable/networking"
+        android:title="@string/title_stdepartmentedit" />
+
+    <item
+        android:id="@+id/navigation_editdelegate"
+        android:icon="@drawable/user"
+        android:title="@string/title_stdeditdelegate" />
+
+</menu>
